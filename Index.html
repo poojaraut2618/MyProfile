@@ -4,40 +4,76 @@
 <head>
     <title>My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Roboto', Sans-serif;
+        }
+        header{
+            background-color: brown;
+            color: bisque;
+            padding: 10px;
+        }
+
+        nav{
+            background-color:  rgb(5, 68, 104);           
+            padding: 10px ;
+        }
+
+        nav a{
+            color: #ffffff;
+        }
+
+        .icon, .menu{
+            margin-right: 50px;
+        }
+
+        nav, footer{
+            padding: 10px;
+        }
+
+        .social{
+            margin-right: 30px;
+        }
+
+
+    </style>
 </head>
 
 <body>
     <header>
-        <i class="fa fa-user-circle" aria-hidden="true"> Pooja Raut</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-phone-square" aria-hidden="true"> +91 9145669547</i> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"> poojaraut2618@gmail.com</i>
+        <i class="fa fa-user-circle icon" aria-hidden="true"> Pooja Raut</i> 
+        <i class="fa fa-phone-square icon" aria-hidden="true"> +91 9145669547</i> 
+        <i class="fa fa-envelope icon" aria-hidden="true"> poojaraut2618@gmail.com</i>
     </header>
     <br>
     <nav>
-        <a href="home.html" target="myFrame">Home</a> &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="myFrame">Technology Stack</a> &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="myFrame">Education</a> &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="projectDetails.html" target="myFrame">Project</a> &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="hobbies.html" target="myFrame">Hobbies</a> &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="personal.html" target="myFrame">Personal</a> &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="contactUs.html" target="myFrame">Contact Us</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="home.html" target="myFrame" class="menu">Home</a> 
+        <a href="techStack.html" target="myFrame" class="menu">Technology Stack</a> 
+        <a href="education.html" target="myFrame" class="menu">Education</a> 
+        <a href="projectDetails.html" target="myFrame" class="menu">Project</a> 
+        <a href="hobbies.html" target="myFrame" class="menu">Hobbies</a> 
+        <a href="personal.html" target="myFrame" class="menu">Personal</a> 
+        <a href="contactUs.html" target="myFrame" class="menu">Contact Us</a>
     </nav>
     <br>
-    <iframe width="900px" height="500px" name="myFrame" src="home.html">
+    <iframe width="900px" height="450px" name="myFrame" src="home.html">
 
     </iframe>
     <br>
     <br>
     <footer>
-        <b>Follow Me </b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <b class="social">Follow Me </b> 
         <a href="https://www.linkedin.com/in/pooja-raut-89137b166/">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa fa-linkedin-square social" aria-hidden="true"></i></a> 
         <a href="https://www.google.com/">
-            <i class="fa fa-google" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa fa-google social" aria-hidden="true"></i></a> 
         <a href="https://www.instagram.com/">
-            <i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa fa-instagram social" aria-hidden="true"></i></a> 
         <a href="https://www.facebook.com/">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa fa-facebook-square social" aria-hidden="true"></i></a> 
     </footer>
 </body>
 
